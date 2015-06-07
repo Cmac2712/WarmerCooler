@@ -1,0 +1,17 @@
+.app {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 769px;
+    max-height: 768px;
+    box-shadow: 6px, 12px, 6px, rgba(0,0,0,1);
+    margin: 0 auto;
+}
+
+.pointer {
+    height: 5px;
+    width: 5px;
+    background-color: #fff;
+}
