@@ -23,4 +23,15 @@ export function getDistance(p1, p2) {
     return Math.sqrt( a*a + b*b ).toFixed(0);
 }
 
+/** REFACTOR THIS COMMENT
+ * Sets the debug marker
+ */
+export function setDebugMarker(DEBUG, pointer, point) {
+    if (DEBUG) {
+	pointer.style.position = "absolute";
+	pointer.style.left     = point.x + "px";
+	pointer.style.top      = point.y + "px";
+    }
+} 
+
 

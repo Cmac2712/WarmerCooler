@@ -7,11 +7,11 @@ export class Create {
     }
     
     startLevel() {
-	alert(this.startMessage);
+//	alert(this.startMessage);
     }
 
     finishLevel () {
-	alert(this.endMessage);
+//	alert(this.endMessage);
 	this.finished = true;
     } 
 }
