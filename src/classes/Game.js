@@ -8,10 +8,8 @@ export class Build {
     changeColor(col) {
 	this.stage.style.backgroundColor = "rgba("+col.r+", "+col.g+", "+col.b+", 1)";
     }
-}
 
-export class Point {
-    constructor(x, y){
+    point (x, y) {
 	this.x = x;
 	this.y = y;
     }

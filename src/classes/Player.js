@@ -5,8 +5,6 @@ export class Cursor {
 	this.stage = Stage
 
 	Stage.onmousemove = function (e) {
-	    //console.dir(document.getElementById('app'))
-
 	    this.posX = e.clientX - Stage.offsetLeft; 
 	    this.posY = e.clientY;
 	}.bind(this);
